@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+export ARM_SUBSCRIPTION_ID=${SUB_ID}
+export ARM_CLIENT_ID=${APP_ID}
+export ARM_CLIENT_SECRET=${PASSWORD}
+export ARM_TENANT_ID=${TENANT_ID}
+
+export TF_VAR_custom_script_storage_account=${CUSTOM_SCRIPT_STORAGE_ACCOUNT}
+export TF_VAR_custom_script_storage_access_key=${CUSTOM_SCRIPT_STORAGE_ACCESS_KEY}
+export TF_VAR_custom_script_base_uri=${CUSTOM_SCRIPT_STORAGE_BASE_URI}
+
+export AZURE_STORAGE_ACCOUNT=${CUSTOM_SCRIPT_STORAGE_ACCOUNT}
+export AZURE_STORAGE_ACCESS_KEY=${CUSTOM_SCRIPT_STORAGE_ACCESS_KEY}
